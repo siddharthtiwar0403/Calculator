@@ -1,0 +1,67 @@
+  .container {
+    box-shadow:  10px 10px 5px black;
+    width: 500px;
+    margin: auto;
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(18, 18, 152);
+    opacity: 80%;
+  }
+  .cont1 {
+    height: 80px;
+    border-radius: 10px;
+    font-size: 60px;
+    width: 450px;
+    margin-left: 25px;
+    margin-top: 20px;
+    background-color: wheat;
+  }
+
+  .btn {
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .box2 {
+    margin: 10px;
+    padding: 10px;
+    height: 65px;
+    width: 65px;
+    box-shadow: 5px 9px 7px black;
+    background-color: yellow;
+    color: brown;
+    font-size: 30px;
+    border-radius: 9px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lora', serif;
+  }
+
+  .btn2 {
+    height: 90px;
+    width: 59px;
+    /* margin-top: 120px; */
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #box4 {
+    padding: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: yellow;
+
+    font-size: 20px;
+    border-radius: 9px;
+
+    width: 100px;
+  }
+  .box2:hover{
+  transform: scale(1.1);
+  transition: ease-in 0.3s;
+  
+  }
